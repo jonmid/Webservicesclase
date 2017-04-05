@@ -26,7 +26,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
         cargador = (ProgressBar) findViewById(R.id.cargador);
         boton = (Button) findViewById(R.id.boton);
         texto = (TextView) findViewById(R.id.texto);
